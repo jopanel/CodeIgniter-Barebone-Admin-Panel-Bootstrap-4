@@ -1,0 +1,148 @@
+// Styling for the navbar
+.navbar-inverse {
+    input.form-control {
+        border-color: $gray-lighter;
+    }
+}
+
+#mainNav {
+    .navbar-collapse {
+        overflow: auto;
+        max-height: 75vh;
+        .navbar-nav.sidebar-nav {
+            .nav-link-collapse:after {
+                font-family: 'FontAwesome';
+                float: right;
+                content: '\f107';
+                color: $gray;
+            }
+            .nav-link-collapse.collapsed:after {
+                content: '\f105';
+            }
+            .sidebar-second-level,
+            .sidebar-third-level {
+                padding-left: 0;
+                > li > a {
+                    display: block;
+                    padding: .5em 0;
+                    color: $gray-light;
+                    &:focus,
+                    &:hover {
+                        text-decoration: none;
+                        color: $gray-lighter;
+                    }
+                }
+            }
+            .sidebar-second-level > li > a {
+                padding-left: 1em;
+            }
+            .sidebar-third-level > li > a {
+                padding-left: 2em;
+            }
+        }
+        .navbar-nav > .nav-item.dropdown {
+            > .nav-link {
+                position: relative;
+                min-width: 45px;
+                &:after {
+                    font-family: 'FontAwesome';
+                    float: right;
+                    width: auto;
+                    content: '\f105';
+                    color: $gray;
+                    border: none;
+                }
+                .new-indicator {
+                    font-size: 1.1rem;
+                    position: absolute;
+                    top: 0;
+                    right: 25px;
+                    .number {
+                        font-size: .5rem;
+                        position: absolute;
+                        top: 6px;
+                        left: 0;
+                        width: 22.625px;
+                        text-align: center;
+                        color: white;
+                    }
+                }
+            }
+            &.show > .nav-link:after {
+                content: '\f107';
+            }
+            .dropdown-menu > .dropdown-item > .dropdown-message {
+                overflow: hidden;
+                max-width: none;
+                text-overflow: ellipsis;
+            }
+        }
+    }
+    @media (min-width: 992px) {
+        .navbar-brand {
+            width: 250px;
+        }
+        .navbar-collapse {
+            overflow: visible;
+            max-height: none;
+            .navbar-nav.sidebar-nav {
+                position: absolute;
+                top: 0;
+                left: 0;
+                overflow: auto;
+                flex-direction: column;
+                height: 100vh;
+                margin-top: 56px;
+                padding-bottom: 56px;
+                background: $gray-dark;
+                -webkit-flex-direction: column;
+                -ms-flex-direction: column;
+                > .nav-item {
+                    width: 250px;
+                    padding: 0;
+                    > .nav-link {
+                        padding: 1em;
+                    }
+                    .sidebar-second-level,
+                    .sidebar-third-level {
+                        padding-left: 0;
+                        list-style: none;
+                        background: $gray-dark;
+                        > li {
+                            width: 250px;
+                            > a {
+                                padding: 1em;
+                            }
+                        }
+                    }
+                    .sidebar-second-level > li > a {
+                        padding-left: 2em;
+                    }
+                    .sidebar-third-level > li > a {
+                        padding-left: 3em;
+                    }
+                }
+                li.active a {
+                    color: white;
+                    background-color: $gray;
+                    &:hover,
+                    &:focus {
+                        color: white;
+                    }
+                }
+            }
+            .navbar-nav > .nav-item.dropdown {
+                > .nav-link {
+                    min-width: 0;
+                    &:after {
+                        width: 24px;
+                        text-align: center;
+                    }
+                }
+                .dropdown-menu > .dropdown-item > .dropdown-message {
+                    max-width: 300px;
+                }
+            }
+        }
+    }
+}
