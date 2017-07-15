@@ -8,7 +8,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="<?=base_url()?>">Dashboard</a></li>
                 <li class="breadcrumb-item">Settings</li>
-                <li class="breadcrumb-item active">Admins</li>
+                <li class="breadcrumb-item active">Groups</li>
             </ol>
  
 
