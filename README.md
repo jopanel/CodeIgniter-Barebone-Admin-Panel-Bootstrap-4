@@ -11,5 +11,11 @@ I made this because there are so many projects I want to do where I need a basic
 
 You are free to use it, but please don't fork it, and when you show your job recruiter your sample code don't send mine.
 
+Credits: 
+
+Bootstrap 4
+CodeIgniter 3.1.5
+Free admin template source (https://startbootstrap.com/template-overviews/sb-admin-2/) 
+
 Donate to my Lisk
 4287319913737945577L
