@@ -3,7 +3,7 @@ Instructions:
 
 1) Install the .sql file to your MySQL database
 2) Change the base_url in application/config/config.php
-3) Change the salt in application/model/Admin_model.php to something else random
+3) Change the salt in application/model/Admin_model.php to something else random (if you do this you can't login with current password if you cant figure out how to change salt and get logged in then you probably shouldn't code)
 4) Login with user: admin password: admin
 
 
