@@ -229,11 +229,11 @@ class Admin_model extends CI_Model {
         			return TRUE;
         		} else {
         			$this->logout();
-        			redirect('http://'.$_SERVER["SERVER_NAME"]."/login", 'auto');
+        			redirect(base_url()."login", 'auto');
         		}
         	} else {
         		$this->logout();
-        		redirect('http://'.$_SERVER["SERVER_NAME"]."/login", 'auto');
+        		redirect(base_url()."login", 'auto');
         	}
         }
 

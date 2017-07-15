@@ -16,16 +16,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <title>SB Admin - Start Bootstrap Template</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="http://<?=$_SERVER["SERVER_NAME"]?>/resources/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?=base_url()?>resources/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
-    <link href="http://<?=$_SERVER["SERVER_NAME"]?>/resources/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="<?=base_url()?>resources/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <!-- Plugin CSS -->
-    <link href="http://<?=$_SERVER["SERVER_NAME"]?>/resources/vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
+    <link href="<?=base_url()?>resources/vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="http://<?=$_SERVER["SERVER_NAME"]?>/resources/css/sb-admin.css" rel="stylesheet">
+    <link href="<?=base_url()?>resources/css/sb-admin.css" rel="stylesheet">
 
 </head>
 
