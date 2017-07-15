@@ -13,9 +13,9 @@ You are free to use it, but please don't fork it, and when you show your job rec
 
 Credits: 
 
-Bootstrap 4
-CodeIgniter 3.1.5
-Free admin template source (https://startbootstrap.com/template-overviews/sb-admin-2/) 
+1. Bootstrap 4
+2. CodeIgniter 3.1.5
+3. Free admin template source (https://startbootstrap.com/template-overviews/sb-admin-2/) 
 
 Donate to my Lisk
 4287319913737945577L
