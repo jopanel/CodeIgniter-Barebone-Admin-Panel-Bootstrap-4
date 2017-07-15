@@ -6,6 +6,8 @@ Instructions:
 3) Change the salt in application/model/Admin_model.php to something else random (if you do this you can't login with current password if you cant figure out how to change salt and get logged in then you probably shouldn't code)
 4) Login with user: admin password: admin
 
+Don't forget your .htaccess file.
+
 
 I made this because there are so many projects I want to do where I need a basic admin login with potential for administrative roles.
 
