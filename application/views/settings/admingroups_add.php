@@ -9,7 +9,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <li class="breadcrumb-item active">Add Group</li>
             </ol>
 
-        <form method="POST" action="<?=base_url()?>settings/groups/">
+        <form method="POST" action="<?=base_url()?>settings/groups">
             <input type="hidden" name="action" value="add"> 
             <div class="form-group row">
               <label for="example-text-input" class="col-2 col-form-label">Group Name</label>
