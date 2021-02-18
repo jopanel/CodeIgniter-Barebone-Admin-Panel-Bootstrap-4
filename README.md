@@ -13,6 +13,8 @@ I made this because there are so many projects I want to do where I need a basic
 
 You are free to use it, but please don't fork it, and when you show your job recruiter your sample code don't send mine.
 
+IF YOU ARE LOOKING FOR A LARAVEL AND PHP8 VERSION CHECK THIS OUT: https://github.com/jopanel/Laravel-Barebone-Admin-Panel-Bootstrap-4-Boilerplate-
+
 Credits: 
 
 1. Bootstrap 4
